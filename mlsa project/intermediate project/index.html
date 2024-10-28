@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DIGITAL CALCULATOR</title>
+        <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+<body >
+    <h1 align="center" style="font-family:'Tangerine';">DIGITAL CALCULATOR</h1>
+    <div align="center">
+<FORM NAME="Calc">  
+<TABLE class="krish">
+<TR>
+<TD>
+<INPUT class="font" TYPE="text" NAME="Input" Size="16" style="font-family:'Tangerine'; height:40px; width:368px; background-color:#CF9; font-size:36px;">
+<br>
+</TD>
+</TR>
+<TR>
+<TD>
+<INPUT TYPE="button" NAME="seven"   VALUE="  7  " OnClick="Calc.Input.value += '7'" class="digi">
+<INPUT TYPE="button" NAME="eight"   VALUE="  8 " OnCLick="Calc.Input.value += '8'" class="digi">
+<INPUT TYPE="button" NAME="nine" VALUE="  9  " OnClick="Calc.Input.value += '9'" class="digi">
+<INPUT TYPE="button" NAME="plus"  VALUE="  +  " class="digi" OnClick="Calc.Input.value += ' + '" >
+<br>
+<INPUT TYPE="button" NAME="four"  VALUE="  4  " OnClick=" Calc.Input.value += '4'" class="digi">
+<INPUT TYPE="button" NAME="five"  VALUE="  5  " OnCLick="Calc.Input.value += '5'" class="digi">
+<INPUT TYPE="button" NAME="six"   VALUE="  6  " OnClick="Calc.Input.value += '6'" class="digi">
+<INPUT TYPE="button" NAME="minus" VALUE="  -  " OnClick="Calc.Input.value += ' - '" class="digi">
+<br>
+<INPUT TYPE="button" NAME="one" VALUE="  1 " OnClick="Calc.Input.value += '1'" class="digi">
+<INPUT TYPE="button" NAME="two" VALUE="  2  " OnCLick="Calc.Input.value += '2'" class="digi">
+<INPUT TYPE="button" NAME="three"  VALUE="  3  " OnClick="Calc.Input.value += '3'" class="digi">
+<INPUT TYPE="button" NAME="times" VALUE="  x  " OnClick="Calc.Input.value += ' * '" class="digi">
+<br>
+<INPUT TYPE="button" NAME="clear" VALUE="  c  " OnClick="Calc.Input.value = ''" class="digi">
+<INPUT TYPE="button" NAME="zero"  VALUE="  0  " OnClick="Calc.Input.value += '0'" class="digi">
+<INPUT TYPE="button" NAME="DoIt"  VALUE="  =  " OnClick="Calc.Input.value = eval(Calc.Input.value)"  class="digi">
+<INPUT TYPE="button" NAME="div"   VALUE="  /  " OnClick="Calc.Input.value += ' / '" class="digi">
+<br>
+</TD>
+</TR>
+</TABLE>
+</FORM>
+</div>
+        
+    </body>
+</html>
